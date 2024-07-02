@@ -3,5 +3,9 @@ const app = express();
 
 app.use("/payRoute")
 
-const port = process.env.PORT || 9000;
+
+console.log("test")
+console.log("test2")
+
+const port = process.env.PORT || 8000;
 app.listen(port, () => console.log("server start on port", port));
